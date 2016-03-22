@@ -30,13 +30,13 @@ The plugin can also be loaded as AMD or CommonJS module.
 
 ## Usage
 
-Create session cookie:
+Create session cookie, 过期时间：浏览会话结束时
 
 ```javascript
 $.cookie('name', 'value');
 ```
 
-Create expiring cookie, 7 days from then:
+Create expiring cookie, 7 days from then, 指定到期时间，单位为天:
 
 ```javascript
 $.cookie('name', 'value', { expires: 7 });
